@@ -38,11 +38,14 @@ git log --oneline -n 3
 git log -p ファイル名
 
 
-・ステージとの変更差分の確認
+・ローカル　と　ステージとの変更差分の確認
 git diff
 
 ・ステージとコミットの差分
 git diff HEAD
+
+・git diff
+
 
 
 
