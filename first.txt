@@ -3,3 +3,12 @@ Gitの練習をしていきます。
 ・git add
 ・git status
 
+・git commit -v
+差分が確認出来る
+
+・git log
+コミットの履歴を参照出来る
+
+
+
+
