@@ -18,4 +18,32 @@ git rm ファイル名
 ・ローカルリポジトリの状態を確認する
 git status
 
+・git log で変更履歴の確認をする
+    j　で　下に移動
+    k　で　上に移動
+    終了は q
+
+・一行で表示する
+git log --oneline
+
+・直近のログをみる
+git log -n 4
+※直近のログ4件まで表示する
+
+応用
+git log --oneline -n 3
+
+
+・ファイルの差分を表示する
+git log -p ファイル名
+
+
+・ステージとの変更差分の確認
+git diff
+
+・ステージとコミットの差分
+git diff HEAD
+
+
+
 
